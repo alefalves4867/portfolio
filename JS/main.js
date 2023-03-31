@@ -161,5 +161,15 @@ function load() {
     }
 
     typeWriterS(logoBlank, true)
+    /* */
 
+    const imgs = [...document.querySelectorAll('.imgs')]
+
+    const textToImgs = ()=>{
+        map.imgs((el) =>{
+            el.addEventListener('click', (()=>{
+                const information = document.createElement('div')
+            }) )
+        })
+    }
 }
