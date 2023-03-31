@@ -1,0 +1,4 @@
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Noto+Nastaliq+Urdu:wght@500&display=swap');
+</style>
+font-family: 'Noto Nastaliq Urdu', serif;
