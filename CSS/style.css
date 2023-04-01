@@ -396,7 +396,7 @@ header #menuNav ol a {
 
 .skills {
   background-color: rgba(0, 0, 0, 0.452);
-  padding: 2rem;
+  padding: 1rem;
 }
 .skills h2 {
   font-size: 1.8rem;
@@ -416,7 +416,7 @@ header #menuNav ol a {
 .ulSkills div li {
   width: 100%;
   list-style-type: none;
-  margin-left: 0.5rem;
+  margin-left: 0.3rem;
   text-align: center;
   color: white;
   font-size: 1.2rem;
