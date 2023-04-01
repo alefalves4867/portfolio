@@ -137,7 +137,7 @@ header #menuNav ol a {
 .home-main-banner {
   position: relative;
   z-index: -1;
-  height: 400px;
+  height: 670px;
   border-bottom: 1px solid #0A2666;
   background-image: linear-gradient(20deg, #0036B3, #0A2666);
   background-size: cover;
@@ -445,6 +445,16 @@ header #menuNav ol a {
   .introducao {
     width: 50%;
     background-color: transparent;
+  }
+  .introducao p {
+    font-size: 1.9rem !important;
+  }
+  .introducao h2 {
+    font-size: 2.2rem !important;
+  }
+  .logs {
+    width: 117px !important;
+    height: 117px !important;
   }
   header {
     display: none;
