@@ -406,14 +406,16 @@ header {
 
 .description {
     width: 100%;
-    padding: 1rem;
+    height: 670px;
+    padding: 3.5rem 1rem 1rem 1rem;
     //background-color: rgba(0, 0, 0, 0.445);
     display: flex;
     flex-direction: column;
+    align-items: center;
     background-color: $iom0;
     //border-radius: 10px;
     box-shadow: 0px 4px 6px 0px rgba(0, 0, 0, 0.534);;
-    
+    position: relative;
     
 }
 
@@ -434,6 +436,14 @@ header {
     font-size: 1.2rem;
     text-align: justify;
     
+}
+
+.imgWorld { /*Imagem do Tzion Brazil*/
+    height: 250px;
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
 
 .skills {
