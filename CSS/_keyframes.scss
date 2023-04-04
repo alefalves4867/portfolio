@@ -71,3 +71,11 @@ $leftכל: 22%;
         opacity: 0%;
     }
 }
+
+/**/
+
+@keyframes worldSviv {
+    to {
+        transform: translate(-50%, -50%) rotate(360deg);
+    }
+}

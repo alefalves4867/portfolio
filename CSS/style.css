@@ -118,6 +118,17 @@
     opacity: 0%;
   }
 }
+/**/
+@-webkit-keyframes worldSviv {
+  to {
+    transform: translate(-50%, -50%) rotate(360deg);
+  }
+}
+@keyframes worldSviv {
+  to {
+    transform: translate(-50%, -50%) rotate(360deg);
+  }
+}
 @font-face {
   font-family: "NotoNastaliqUrdu";
   src: url("../CSS/fonts/Noto_Nastaliq_Urdu/NotoNastaliqUrdu-VariableFont_wght.ttf") format("truetype");
@@ -471,6 +482,11 @@ header #menuNav ol a {
   top: 60%;
   left: 50%;
   transform: translate(-50%, -50%);
+}
+
+.worldSviv {
+  -webkit-animation: worldSviv 24s ease-in-out infinite;
+          animation: worldSviv 24s ease-in-out infinite;
 }
 
 .skills {

@@ -172,4 +172,13 @@ function load() {
             }) )
         })
     }
+
+
+    /* World Saviv */
+
+    const w1 = document.querySelector('#w1')
+
+    w1.classList.add('worldSviv')
+
+
 }

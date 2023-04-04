@@ -446,6 +446,11 @@ header {
     transform: translate(-50%, -50%);
 }
 
+.worldSviv {
+    animation: worldSviv 24s ease-in-out infinite;
+}
+
+
 .skills {
     background-color: rgba(0, 0, 0, 0.452);
     padding: 1rem;
